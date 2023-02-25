@@ -12,13 +12,38 @@ As N, the number of instances of evidence approaches infinity, our Baeysian resu
 
 "The posterior probabilities are represented by the curves, and our uncertainty is proportional to the width of the curve."
 
+## Discrete Random Variables?
+For discrete variables? Probability Mass Function
+
+If a random variable  𝑍
+  has a Poisson mass distribution, we denote this by writing
+
+`𝑍∼Poi(𝜆)`
+ 
+One useful property of the Poisson distribution is that its expected value is equal to its parameter, i.e.:
+
+`𝐸[𝑍|𝜆]=𝜆`
+ 
+
+## Continuous Random Variables
+Use the Probability Density Function
+
+When a random variable has an exponential distribution with parameter  `𝜆`, we say  𝑍 is exponential and write
+
+`𝑍∼Exp(𝜆)`
+ 
+Given a specific  𝜆
+ , the expected value of an exponential random variable is equal to the inverse of  𝜆
+ , that is:
+
+`𝐸[𝑍|𝜆]=1𝜆`
 
 
+Poisson is great for counts data, especially counts per period.
 
 
-
-
-
+## What is probabilistic programming?
+Simply: probability model components are first class citizens. 
 
 
 
